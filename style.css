@@ -1,0 +1,97 @@
+html, body{
+  background-color: #f9f9f9;
+    background-image: linear-gradient(180deg, #999, #666);
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+}
+
+h1,h2,h3 {
+  color: #515357;
+  line-height: 1.2;
+}
+
+/*h3{
+display: inline;  
+}*/
+
+hr {
+  width: 80%;
+  color: #999;
+}
+
+a {
+  color: #00A1DC;
+  font-style:italic;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3FB4C5;
+}
+
+::selection {
+  color: #B3CC57;
+  background-color: #424C55;
+}
+
+#title {
+  text-align: center;
+  min-width: 620px;
+  width: 60%;
+  margin: 0px auto;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+#menu {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+  color: #84badc;
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  position: fixed;
+  background-color: #222;
+  border-bottom: 1px solid #000;
+}
+
+#content {
+  min-width: 620px;
+  width: 60%;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+  line-height: 22px;
+  border-top: 1px dashed #333;
+}
+
+#content ul {
+  list-style: none;
+}
+
+#content li {
+  line-height: 24px;
+}
+
+#title span {
+  font-style: italic;
+}
+
+.donate {
+  color: #999;
+}
